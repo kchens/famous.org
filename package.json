@@ -4,7 +4,7 @@
   "description": "jquerySF 2015",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && serve public/",
+    "start": "npm run build && serve public/ -p 3000",
     "dev": "serve public & npm run watch",
     "test": "npm run build",
     "watch": "nodemon --ignore node_modules/ -e js,json,jade,styl,md --exec 'npm run build'",
